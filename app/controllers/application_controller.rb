@@ -5,4 +5,8 @@ class ApplicationController < ActionController::Base
   def hola
     render html: "hola, mundo!"
   end
+
+  def saludo
+    render html: "Hola, mi nombre es Fredder Baca, este es mi repositorio oficial"
+  end
 end
